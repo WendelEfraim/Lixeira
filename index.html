@@ -10,23 +10,61 @@
             padding: 0;
         }
         body{
-            background: rgb(172, 80, 4);
+            background: #F6B342;
             height: 100vh;
         }
         .center{
-            width: 100%;
-            height: 100%;
+            width: 100vw;
+            height: 100vh;
             display: flex;
             justify-content: center;
-            align-items: center
+            align-items: center;
+        }
+        nav{
+            position: absolute;
+            background-color: #3A6B2B;
+            width: 100vw;
+        }
+        nav img{
+            padding: 3px;
+            width: 6vw;
+        }
+        .in{
+            padding:10px;
+            justify-content: space-evenly;
+            position: relative;
+            display: flex;
+            width: 80vw;
+            height: 40vh;
+            background: #3A6B2B;
+            border-radius: 15px;
+            flex-direction: row-reverse;
+        }
+
+        .foto img{
+            width: 100%;
+            height: 100%;
+        }
+        .conteudo{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: left;
+            font-size: 2.5vw;
+            color: white;
+            width: 50%;
+        }
+        .conteudo button{
+            margin-top: 20px;
         }
         button{
             background: rgb(105, 57, 57);
             color: white;
-            font-size: 40px;
-            width: 220px;
-            height: 150px;
-            border-radius: 15px;
+            font-size: 50%;
+            left: 10px;
+            width: 40%;
+            height: 11%;
+            border-radius: 40px;
             border-style: none;
             cursor: pointer;
             transition: 0.3s;
@@ -34,20 +72,29 @@
         button:hover{
             background-color: greenyellow;
             color: black;
-            width: 240px;
-            height: 200px;
-            font-size: 45px;
-            font-weight: 700;
+            font-size: 55%;
         }
         
     </style>
 </head>
 <body>
+    <nav>
+        <img src="./CYCLO__1_-removebg-preview.png" alt="">
+    </nav>
     <div class="center">
 
         <div class="in">
-           
-            <button>Compre já</button>
+            <div class="foto">
+                <img src="./Design_sem_nome__2_-removebg-preview.png" alt=""background-size:cover;>
+            </div>
+            
+            <div class="conteudo">
+                <p>Painel de LED para anúncios patrocinados<br>
+                    Entretenimento para o público <br>
+                    Personalização de conteúdo<br></p>
+                <button>Fale com a gente</button>
+            </div>
+            
 
         </div>
 
